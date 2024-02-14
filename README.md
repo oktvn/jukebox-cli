@@ -1,6 +1,6 @@
 ## System requirements
 * PHP 8+
-* MySQL or any other database engine of your choice, supported by Laravel (see `jukebox-cli/config/database.php`)
+* MySQL or any other database engine of your choice, supported by Laravel (see `config/database.php`)
 
 ## Set-up
 1. Make sure you're in the right directory: `cd jukebox-cli/`
