@@ -7,7 +7,8 @@
 2. Install dependencies: `composer install`
 3. Create a new `.env` file based on `.env.example`: `cp .env.example .env`
 4. Fill in your database details in the `.env` file.
-5. Run the migrations and seed the tables with dummy data: `php artisan migrate && php artisan migrate:refresh --seed && php artisan db:seed --class=ArtistsTableSeeder && php artisan db:seed --class=TracksTableSeeder`
+5. Run the migrations: `php artisan migrate`
+6. Seed the tables with dummy data: `php artisan migrate:refresh --seed && php artisan db:seed --class=ArtistsTableSeeder && php artisan db:seed --class=TracksTableSeeder`
 
 ## Usage
 * `php artisan list`: Lists all artists and tracks, with a number associated
