@@ -15,7 +15,7 @@
 
 ## Usage
 * `php artisan list`: Lists all artists and tracks, with a number associated
-* `php artisan play [Track ID]`: Plays the track identified by the corresponding number. If there is a track already playing, it adds it to the queue. It also takes a list of numbers and adds the extra tracks to the queue.
+* `php artisan play 1 2 3 4 5`: Plays the track identified by the corresponding number. If there is a track already playing, it adds it to the queue. It also takes a list of numbers and adds the extra tracks to the queue.
 * `php artisan queue`: lists contents of the queue including currently playing track
 * `php artisan playing`: gives details of the currently playing track
 * `php artisan clear`: clears queue and current playing track
