@@ -18,7 +18,7 @@
 * `php artisan clear`: clears queue and current playing track
 
 ## Features
-All tracks from a given artist will be played sequentially, in the order they were added, group by their respective artists, also in the order added.
+All tracks from a given artist will be played sequentially, in the order they were added, grouped by their respective artists.
 
 ## Tests
 A feature test can be ran with `php artisan test`. No unit tests are available.
