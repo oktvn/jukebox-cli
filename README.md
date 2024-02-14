@@ -2,6 +2,9 @@
 * PHP 8+
 * MySQL or any other database engine of your choice, supported by Laravel (see `config/database.php`)
 
+## Special note
+* For simplicity, Laravel Cache (`Illuminate\Support\Facades\Cache`) is used to store state. The database is only used for data (tracks and artists).
+
 ## Set-up
 1. Make sure you're in the right directory: `cd jukebox-cli/`
 2. Install dependencies: `composer install`
